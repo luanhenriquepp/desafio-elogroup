@@ -51,7 +51,6 @@ export class AppComponent implements OnInit {
     if (event.value === 'sim') {
       return this.checkSocialMedia = true;
     }
-    this.form.get('socialMedia').reset();
     return this.checkSocialMedia = false;
   }
 
@@ -79,8 +78,8 @@ export class AppComponent implements OnInit {
     if (this.form.valid) {
       this.disableButtonSave =  true;
       console.log(this.form.value);
-      return  this.http.post('http://localhost:8000', this.form.value).subscribe(resp => {
-        return resp;
+       this.http.post('http://localhost:8000', this.form.value).subscribe(resp => {
+         return resp;
       });
     }
   }
