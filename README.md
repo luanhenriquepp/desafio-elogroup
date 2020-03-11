@@ -1,27 +1,27 @@
 # DesafioElogroup
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.5.
+## Pré requisitos para executar o projeto
 
-## Development server
+-Angular CLI na sua ultima versão
+-NPM versão 6.13.4
+-Node versão 13.5.0
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Para satisfazer essas necessidades basta 
 
-## Code scaffolding
+Node: Acessar o site https://nodejs.org/en/download/ e procurar pelo installador do seu OS
+Angular CLI: npm install - g @angular/cli@latest
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+## Após satisfazer esse pré requisito basta clonar o projeto e seguir as instruções
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Executar o comando: npm install para installar as dependências no package.json
+Executar o comando: npm start para subir o 
 
-## Running unit tests
+O projeto por padrão é executado na porta 4200
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+
