@@ -9,6 +9,8 @@
 Para satisfazer essas necessidades basta 
 
 Node: Acessar o site https://nodejs.org/en/download/ e procurar pelo installador do seu OS
+
+
 Angular CLI: npm install - g @angular/cli@latest
 
 
