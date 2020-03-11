@@ -5,9 +5,6 @@ import { MatCheckboxChange } from '@angular/material/checkbox';
 import {ErrorStateMatcher} from '@angular/material/core';
 import { HttpClient } from '@angular/common/http';
 
-
-
-
 /** Error when invalid control is dirty, touched, or submitted. */
 export class MyErrorStateMatcher implements ErrorStateMatcher {
   isErrorState(control: FormControl | null, form: FormGroupDirective | NgForm | null): boolean {
@@ -32,7 +29,6 @@ export class AppComponent implements OnInit {
 
   constructor(private fb: FormBuilder,
               private  http: HttpClient) {
-
   }
 
   ngOnInit(): void {
