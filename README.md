@@ -6,6 +6,7 @@
 
 -NPM versão 6.13.4
 
+
 -Node versão 13.5.0
 
 
